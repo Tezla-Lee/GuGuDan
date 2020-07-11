@@ -21,20 +21,38 @@ public class GuGuDan {
 		// 6단
 		
 		
-		int i = 1;
+//		int i = 1;
+//
+//		while(i < 10) {		
+//			System.out.println(6 * i);		
+//			i++;
+//		}
+//		
+//		// 7단
+//		i = 1;
+//		while(i < 10) {		
+//			System.out.println(7 * i);		
+//			i++;
+//		}
 
-		while(i < 10) {		
-			System.out.println(6 * i);		
-			i++;
+		int[] result = new int[9];
+		
+		for (int j = 0; j < 8; j++) {
+			System.out.println((j +2) + "단");
+			for (int i = 0; i< result.length; i++) {
+				
+				result[i] = (j + 2) * (i + 1);
+				System.out.println(result[i]);
+			}
+			System.out.println();
 		}
 		
-		// 7단
-		i = 1;
-		while(i < 10) {		
-			System.out.println(7 * i);		
-			i++;
-		}
 		
+//		for (int i = 0; i< result.length; i++) {
+//			
+//			result[i] = 3 * (i + 1);
+//			System.out.println(result[i]);
+//		}
 	}
 
 }
