@@ -2,6 +2,7 @@ package nineninedan;
 
 public class Method {
 
+	// 배열 만듦
 	public static int[] calculate(int times) {
 		int[] result = new int[9];
 		for (int i = 0; i < result.length; i++) {
@@ -16,11 +17,10 @@ public class Method {
 		}
 	}
 	
-	public static void main(String[] args) {
-		for (int i= 0; i < 8; i++) {
-		int []result = calculate(i+2);
-			print(result);
-		}
-	}
+//	public static void main(String[] args) {
+//		for (int i= 0; i < 8; i++) {
+//		int []result = calculate(i+2);
+//			print(result);
+//		}
 
 }

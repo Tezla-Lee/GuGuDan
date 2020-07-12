@@ -35,6 +35,7 @@ public class GuGuDan {
 //			i++;
 //		}
 
+		
 		int[] result = new int[9];
 		
 		for (int j = 0; j < 8; j++) {
@@ -46,13 +47,10 @@ public class GuGuDan {
 			}
 			System.out.println();
 		}
+
 		
 		
-//		for (int i = 0; i< result.length; i++) {
-//			
-//			result[i] = 3 * (i + 1);
-//			System.out.println(result[i]);
-//		}
+		
 	}
 
 }
