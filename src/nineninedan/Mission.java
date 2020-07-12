@@ -6,7 +6,7 @@ public class Mission {
 
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("몇 단까지 출력하시겠습니까?");
+		System.out.println("몇 단까지 출력하시겠습니까? (ex 8입력 -> 88단까지)");
 		int dan = scanner.nextInt();
 		
 		for(int i =  2; i  <=  dan; i++) {
